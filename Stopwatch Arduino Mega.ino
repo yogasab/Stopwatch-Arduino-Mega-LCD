@@ -162,9 +162,9 @@ void loop() {
   //  lcd.clear();
   DateTime now = RTC.now();
   lcd.setCursor(4, 0);
-  lcd.print("PT PANASONIC");
+  lcd.print("");
   lcd.setCursor(0, 1);
-  lcd.print("MANUFAKTUR INDONESIA");
+  lcd.print("");
   lcd.setCursor(1, 2);
   printDigits(now.hour());
   lcd.print(":");
